@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,9 +22,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,36 +45,62 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
-body{
+/* body{
     margin: 0 300px;
 
-}
+} */
+
+ /* START OF CSS CODE AFTER RESET CSS */
+
+ body{
+     background-image: url("../images/cork-board.png");
+     margin: 0;
+     color: #777777;
+
+ }
+ h1,h2,h3,h4{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+ }
 
 #imgDp{
     float: left;
     height: 200px;
     width: 200px;
+    margin: 0 20px;
 }
 
 .topheader{
-    width: 1024px;
-    height: 80px;
-    border-bottom: 1px solid lightslategray;    
+    width: 100%;
+    height: 97px;
+    border-bottom: 1px solid lightslategray;  
+    clear: both;  
+    background: white;
+    margin: 0 auto;
 }
 
-.aboutme{
+.headercontainer{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.contentsheader{
     color: #4aaaa5;
+    padding: 10px;
 }
 
 #txtABout{
     float: left;
+    display: block;
+    /* margin-left: 20px; */
 }
 
 .hdrRight{
     /* margin: 15px auto; */
     float: right;
+    padding: 30px 0px;
+    /* margin-right: 50px; */
 }
 
 .hdrContents{
@@ -87,9 +113,39 @@ body{
     float: left;
     background: #4aaaa5;
     font-size: 32px;
-    padding: 30px 30px;
+    padding: 20px 30px;
+    color: white;
+    /* margin-left: 50px; */
 }
 
-#divinfo{
-    width: 1024px;
+.divcontents{
+    padding: 10px;
+    width: 960px;
+    margin-top: 20px;
+    /* margin: 0px 0px 50px; */
+    margin: 0 auto;
+    /* width: 100%; */
+    background: white;
+    clear: both;
+    overflow: auto;
 }
+
+footer{
+    margin: 0;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    background: #666666;
+    padding: 20px 40px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+/* SPECIFIC CONTACT HTML CONTENTS */
+
+.contactform{
+    background: white;
+
+}
+
