@@ -166,3 +166,34 @@ input, textarea{
     width: 100px;
     background: #4aaaa5;
 }
+
+/* SPECIFIC PORTFOLIO HTML CONTENTS */
+
+td{
+    position: relative;
+    padding: 20px 30px 0px 0px;
+
+}
+
+/* .lbl-1{
+    position: absolute;
+    margin-bottom: 30px;
+    bottom: 8px;
+    left: 10px;
+} */
+
+.lblport{
+    position: absolute;
+    margin-bottom: 30px;
+    bottom: 0px;
+    /* left: 10px; */
+    background: #4aaaa5;
+    width: 140px;
+    padding: 5px;
+    text-align: center;
+}
+
+table{
+    color: #ffffff;
+}
+
