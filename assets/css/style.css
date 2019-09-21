@@ -74,9 +74,9 @@ table {
 .topheader{
     width: 100%;
     height: 97px;
-    border-bottom: 1px solid lightslategray;  
+    border-bottom: 1px solid #cccccc;  
     clear: both;  
-    background: white;
+    background: #ffffff;
     margin: 0 auto;
 }
 
@@ -114,7 +114,7 @@ table {
     background: #4aaaa5;
     font-size: 32px;
     padding: 20px 30px;
-    color: white;
+    color: #ffffff;
     /* margin-left: 50px; */
 }
 
@@ -125,7 +125,7 @@ table {
     /* margin: 0px 0px 50px; */
     margin: 0 auto;
     /* width: 100%; */
-    background: white;
+    background: #ffffff;
     clear: both;
     overflow: auto;
 }
@@ -145,7 +145,24 @@ footer{
 /* SPECIFIC CONTACT HTML CONTENTS */
 
 .contactform{
-    background: white;
+    background: #ffffff;
 
 }
 
+#inputName,#inputEmail,#inputMessage{
+    margin-top: 10px;
+}
+
+input, textarea{
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 99%;
+    resize: vertical;
+}
+
+#submit{
+    color: #ffffff;
+    width: 100px;
+    background: #4aaaa5;
+}
